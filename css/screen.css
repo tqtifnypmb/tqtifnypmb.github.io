@@ -43,14 +43,15 @@
 
 @font-face {
     font-family: 'weibo';
-    src:url('../fonts/weibo.eot');
-    src:url('../fonts/weibo.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/weibo.woff') format('woff'),
-        url('../fonts/weibo.ttf') format('truetype'),
-        url('../fonts/weibo.svg#icons') format('svg');
+    src:  url('../fonts/weibo.eot?cy4w5d');
+    src:  url('../fonts/weibo.eot?cy4w5d#iefix') format('embedded-opentype'),
+      url('../fonts/weibo.ttf?cy4w5d') format('truetype'),
+      url('../fonts/weibo.woff?cy4w5d') format('woff'),
+      url('../fonts/weibo.svg?cy4w5d#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+    font-display: block;
+  }
 
 /* Apply these base styles to all icons */
 .icon-ghost:before,

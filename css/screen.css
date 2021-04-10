@@ -368,6 +368,38 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0;
 }
 
+.site-head-quick-entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 42px;
+}
+
+.site-head-feed {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.site-head-feed:hover {
+    color: white;
+}
+
+.site-head-about {
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 0.8em;
+    transition: color 300ms;
+}
+
+.site-head-about:hover {
+    color: white;
+    transition: color 300ms;
+}
 
 /* ==========================================================================
    3. Utilities - These things get used a lot

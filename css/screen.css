@@ -377,13 +377,14 @@ margin on the iframe, cause it breaks stuff. */
     margin-top: 42px;
 }
 
-.site-head-feed {
+.site-head-entrance {
     font-size: 13px;
     text-decoration: none;
+    margin-right: 16px;
     color: rgba(255, 255, 255, 0.8);
 }
 
-.site-head-feed:hover {
+.site-head-entrance:hover {
     color: white;
 }
 
@@ -465,6 +466,11 @@ margin on the iframe, cause it breaks stuff. */
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     text-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+
+.blog-title-link {
+    text-decoration: none;
+    color: white;
 }
 
 .blog-description {

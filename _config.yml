@@ -124,4 +124,5 @@ archive_generator:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
+  branch: master
   repo: https://github.com/tqtifnypmb/tqtifnypmb.github.io

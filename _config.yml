@@ -6,7 +6,7 @@
 title: 蓝药丸
 subtitle: ''
 description: '独立开发'
-keywords: 独立开发,独立开发者,自我表达
+keywords: 蓝药丸,独立开发,独立开发者,自我表达
 author: Tqtifnypmb
 language: zh-CN
 timezone: ''
@@ -98,6 +98,7 @@ ignore:
 Plugins: 
 - hexo-generator-cname
 - hexo-generator-feed
+- hexo-generator-archive
 
 ## Themes: https://hexo.io/themes/
 theme: casper
@@ -111,6 +112,13 @@ feed:
 ## Sitemap
 sitemap:
     path: sitemap.xml
+
+## archive
+archive_generator:
+  enabled: true
+  per_page: 10
+  monthly: true
+  order_by: -date
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

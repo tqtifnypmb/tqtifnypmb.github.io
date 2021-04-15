@@ -52,7 +52,7 @@
 
 "argparse@^1.0.7":
   "integrity" "sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg=="
-  "resolved" "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz"
+  "resolved" "https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz"
   "version" "1.0.10"
   dependencies:
     "sprintf-js" "~1.0.2"
@@ -166,6 +166,11 @@
   "integrity" "sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg=="
   "resolved" "https://registry.yarnpkg.com/commander/-/commander-5.1.0.tgz"
   "version" "5.1.0"
+
+"commander@1.0.0":
+  "integrity" "sha1-XmqI5wcP9ZCINurRkWlUjDD5C80="
+  "resolved" "https://registry.npmjs.org/commander/-/commander-1.0.0.tgz"
+  "version" "1.0.0"
 
 "compressible@~2.0.16":
   "integrity" "sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg=="
@@ -467,6 +472,13 @@
     "moment" "^2.18.0"
     "nunjucks" "^3.2.1"
 
+"hexo-front-matter-excerpt@^0.2.0":
+  "integrity" "sha1-QtGNXSmjGeT8rbnzCTHiSpOqlOQ="
+  "resolved" "https://registry.npmjs.org/hexo-front-matter-excerpt/-/hexo-front-matter-excerpt-0.2.0.tgz"
+  "version" "0.2.0"
+  dependencies:
+    "yaml-front-matter" "^3.0.1"
+
 "hexo-front-matter@^2.0.0":
   "integrity" "sha512-IR3tjAyK2Ga/0a/WDAoNy5+n3ju2/mkuAsCDEeGgGLf5+7kkiOkkG/FrnueuYgz0h2MPfWDLBiDsSTCmB0sLCA=="
   "resolved" "https://registry.yarnpkg.com/hexo-front-matter/-/hexo-front-matter-2.0.0.tgz"
@@ -734,6 +746,14 @@
 "js-yaml@^3.13.1":
   "integrity" "sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g=="
   "resolved" "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.1.tgz"
+  "version" "3.14.1"
+  dependencies:
+    "argparse" "^1.0.7"
+    "esprima" "^4.0.0"
+
+"js-yaml@^3.5.2":
+  "integrity" "sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g=="
+  "resolved" "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz"
   "version" "3.14.1"
   dependencies:
     "argparse" "^1.0.7"
@@ -1115,7 +1135,7 @@
 
 "sprintf-js@~1.0.2":
   "integrity" "sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw="
-  "resolved" "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz"
+  "resolved" "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
   "version" "1.0.3"
 
 "statuses@>= 1.5.0 < 2", "statuses@~1.5.0":
@@ -1260,3 +1280,11 @@
   "integrity" "sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8="
   "resolved" "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz"
   "version" "1.0.2"
+
+"yaml-front-matter@^3.0.1":
+  "integrity" "sha1-5S6E/qaYO5N1XpsVZNupibAGtaU="
+  "resolved" "https://registry.npmjs.org/yaml-front-matter/-/yaml-front-matter-3.4.1.tgz"
+  "version" "3.4.1"
+  dependencies:
+    "commander" "1.0.0"
+    "js-yaml" "^3.5.2"

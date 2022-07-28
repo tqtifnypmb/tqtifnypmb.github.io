@@ -379,13 +379,17 @@ margin on the iframe, cause it breaks stuff. */
 
 .site-head-entrance {
     font-size: 13px;
-    text-decoration: none;
-    margin-right: 16px;
+    text-decoration: underline;
+    text-decoration-style: dashed;
     color: rgba(255, 255, 255, 0.8);
 }
 
 .site-head-entrance:hover {
     color: white;
+}
+
+.site-head-entrance > span {
+    font-size: 13px;
 }
 
 .site-head-about {
@@ -400,6 +404,27 @@ margin on the iframe, cause it breaks stuff. */
 .site-head-about:hover {
     color: white;
     transition: color 300ms;
+}
+
+.site-head-column-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.site-head-column-title {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.site-head-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 32px;
 }
 
 /* ==========================================================================

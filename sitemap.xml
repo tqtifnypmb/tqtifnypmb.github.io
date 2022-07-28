@@ -2,44 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.bluepill.life/2021/05/29/tech/</loc>
+    <loc>http://blog.bluepill.life/2022/07/28/0-starter/</loc>
     
-    <lastmod>2021-05-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.bluepill.life/2021/04/29/ego-tech/</loc>
-    
-    <lastmod>2021-04-28</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.bluepill.life/2021/04/14/product-pro/</loc>
-    
-    <lastmod>2021-04-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.bluepill.life/2021/04/10/indie-dev/</loc>
-    
-    <lastmod>2021-04-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.bluepill.life/2021/04/08/opener/</loc>
-    
-    <lastmod>2021-04-08</lastmod>
+    <lastmod>2022-07-28</lastmod>
     
   </url>
   
 
   <url>
     <loc>http://blog.bluepill.life/</loc>
-    <lastmod>2022-07-27</lastmod>
+    <lastmod>2022-07-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://tqtifnypmb.bluepill.life/2022/07/30/2-knife/</loc>
+    <loc>http://tqtifnypmb.bluepill.life/2022/07/29/1-idea-machine/</loc>
     
-    <lastmod>2022-07-30</lastmod>
+    <lastmod>2022-07-31</lastmod>
     
   </url>
   
   <url>
-    <loc>http://tqtifnypmb.bluepill.life/2022/07/29/1-idea-machine/</loc>
+    <loc>http://tqtifnypmb.bluepill.life/2022/07/30/2-knife/</loc>
     
-    <lastmod>2022-07-29</lastmod>
+    <lastmod>2022-07-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tqtifnypmb.bluepill.life/2022/07/31/3-lang/</loc>
+    
+    <lastmod>2022-07-31</lastmod>
     
   </url>
   
@@ -25,7 +32,7 @@
 
   <url>
     <loc>http://tqtifnypmb.bluepill.life/</loc>
-    <lastmod>2022-07-30</lastmod>
+    <lastmod>2022-07-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

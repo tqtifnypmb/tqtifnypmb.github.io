@@ -5,15 +5,15 @@
 # Site
 title: Tqtifnypmb
 subtitle: ''
-description: '独立开发'
-keywords: Tqtifypmb,蓝药丸,独立开发,独立开发者,自我表达
+description: ''
+keywords: Tqtifypmb
 author: Tqtifnypmb
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://blog.bluepill.life
+url: http://tqtifnypmb.bluepill.life
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

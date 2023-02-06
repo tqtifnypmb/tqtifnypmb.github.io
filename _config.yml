@@ -125,4 +125,4 @@ archive_generator:
 deploy:
   type: git
   branch: master
-  repo: https://github.com/tqtifnypmb/tqtifnypmb.github.io
+  repo: git@github.com:tqtifnypmb/tqtifnypmb.github.io.git

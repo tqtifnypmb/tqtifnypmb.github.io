@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://tqtifnypmb.bluepill.life/2023/03/13/14-whisper/</loc>
+    
+    <lastmod>2023-03-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://tqtifnypmb.bluepill.life/2023/02/06/13-story-ai/</loc>
     
-    <lastmod>2023-02-06</lastmod>
+    <lastmod>2023-03-13</lastmod>
     
   </url>
   
@@ -102,7 +109,7 @@
 
   <url>
     <loc>http://tqtifnypmb.bluepill.life/</loc>
-    <lastmod>2023-02-06</lastmod>
+    <lastmod>2023-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -110,21 +117,28 @@
   
   <url>
     <loc>http://tqtifnypmb.bluepill.life/tags/%E4%BA%A7%E5%93%81/</loc>
-    <lastmod>2023-02-06</lastmod>
+    <lastmod>2023-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://tqtifnypmb.bluepill.life/tags/Ouroboros/</loc>
-    <lastmod>2023-02-06</lastmod>
+    <lastmod>2023-03-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://tqtifnypmb.bluepill.life/tags/AI-Transcribe/</loc>
+    <lastmod>2023-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://tqtifnypmb.bluepill.life/tags/%E7%B3%8A%E5%BC%84%E9%94%AE%E7%9B%98/</loc>
-    <lastmod>2023-02-06</lastmod>
+    <lastmod>2023-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

@@ -6,7 +6,7 @@
   <link href="http://tqtifnypmb.bluepill.life/atom.xml" rel="self"/>
   
   <link href="http://tqtifnypmb.bluepill.life/"/>
-  <updated>2023-03-13T10:37:20.428Z</updated>
+  <updated>2023-03-15T11:40:38.252Z</updated>
   <id>http://tqtifnypmb.bluepill.life/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://tqtifnypmb.bluepill.life/2023/03/13/14-whisper/"/>
     <id>http://tqtifnypmb.bluepill.life/2023/03/13/14-whisper/</id>
     <published>2023-03-13T10:05:16.000Z</published>
-    <updated>2023-03-13T10:37:20.428Z</updated>
+    <updated>2023-03-15T11:40:38.252Z</updated>
     
     <content type="html"><![CDATA[<p>把 OpenAI 的 Whisper 移植到了 iOS 和 macOS 上。</p><p>对于我来说，Transformer 结构的 AI 模型，依然是一堆故事联系起来了。如果仅停留在故事层面，掌握这些故事后，AI 模型是可以被理解的。</p><p>但似乎业内训练模型的人，对模型的结构与训练有一整套不一样的 Intuitive。可是问题，他们目前也没有办法把这套 Intuitive 语言化。</p>]]></content>
     

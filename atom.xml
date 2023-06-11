@@ -6,7 +6,7 @@
   <link href="http://tqtifnypmb.bluepill.life/atom.xml" rel="self"/>
   
   <link href="http://tqtifnypmb.bluepill.life/"/>
-  <updated>2023-05-30T16:00:44.637Z</updated>
+  <updated>2023-06-11T15:10:03.904Z</updated>
   <id>http://tqtifnypmb.bluepill.life/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>让 CoreML 运行在 ANE/GPU 上</title>
+    <link href="http://tqtifnypmb.bluepill.life/2023/06/11/17-core-ml-gpu-md/"/>
+    <id>http://tqtifnypmb.bluepill.life/2023/06/11/17-core-ml-gpu-md/</id>
+    <published>2023-06-11T15:09:13.000Z</published>
+    <updated>2023-06-11T15:10:03.904Z</updated>
+    
+    <content type="html"><![CDATA[<p>规则：</p><ol><li>芯片的运行速度：ANE &gt; GPU.</li><li>ANE 芯片只能运行不超过某个大小的模型。如果模型大小超过一定的阈值（目前大概是 100M），它将无法在 ANE 上。</li><li>Flexible Shapes 的模型无法运行在 ANE/GPU 上。所以需要把模型设计成 Flexible Shapes。</li><li>把模型放到 ANE/GPU 上运行，可以突破 App 内在上限的限制。（似乎 iOS/macOS 对 APP 形式的应用程序有一个内存上限。超过上限的 App，会被强制退出）</li></ol><p>目前 Transformer 架构的模型，一般在 Decoder 上有一些缓存，而如果要把这些缓存实现在 CoreML 上，需要把缓存从模型外传到模型内，也就是需要有 Flexible Shapes，相当于缓存==CPU。目前的经验是：与其为了加缓存而把模型放到 CPU 去运行，还不如放弃缓存，争取让模型运行在 ANE/GPU 上。</p><p>确定 Shape 的模型还能应运 iOS/macOS 上的非常多优化机制：</p><ol><li>用 IOSurface 内存储存模型的输入，避免多余的内存复制，即可以加速模型运行速度，又可以减少模型的内存 footprint。</li><li>用模型的 OutputBackings ，让模型输出到给定的 IOSurface 内存上，进一步减少内存复制。</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;规则：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;芯片的运行速度：ANE &amp;gt; GPU.&lt;/li&gt;
+&lt;li&gt;ANE 芯片只能运行不超过某个大小的模型。如果模型大小超过一定的阈值（目前大概是 100M），它将无法在 ANE 上。&lt;/li&gt;
+&lt;li&gt;Flexible Shapes 的模型无</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>设计是一种语言</title>

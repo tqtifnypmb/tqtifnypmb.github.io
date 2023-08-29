@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://tqtifnypmb.bluepill.life/2023/06/11/17-core-ml-gpu-md/</loc>
+    <loc>http://tqtifnypmb.bluepill.life/2023/05/16/15-diff/</loc>
     
-    <lastmod>2023-06-11</lastmod>
+    <lastmod>2023-08-29</lastmod>
     
   </url>
   
   <url>
     <loc>http://tqtifnypmb.bluepill.life/2023/05/31/16-design/</loc>
     
-    <lastmod>2023-05-30</lastmod>
+    <lastmod>2023-08-29</lastmod>
     
   </url>
   
   <url>
-    <loc>http://tqtifnypmb.bluepill.life/2023/05/16/15-diff/</loc>
+    <loc>http://tqtifnypmb.bluepill.life/2023/06/11/17-core-ml-gpu-md/</loc>
     
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-08-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tqtifnypmb.bluepill.life/2023/08/29/18-product-idea/</loc>
+    
+    <lastmod>2023-08-29</lastmod>
     
   </url>
   
@@ -130,7 +137,7 @@
 
   <url>
     <loc>http://tqtifnypmb.bluepill.life/</loc>
-    <lastmod>2023-06-11</lastmod>
+    <lastmod>2023-08-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,28 +145,28 @@
   
   <url>
     <loc>http://tqtifnypmb.bluepill.life/tags/%E4%BA%A7%E5%93%81/</loc>
-    <lastmod>2023-06-11</lastmod>
+    <lastmod>2023-08-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://tqtifnypmb.bluepill.life/tags/Ouroboros/</loc>
-    <lastmod>2023-06-11</lastmod>
+    <lastmod>2023-08-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://tqtifnypmb.bluepill.life/tags/AI-Transcribe/</loc>
-    <lastmod>2023-06-11</lastmod>
+    <lastmod>2023-08-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://tqtifnypmb.bluepill.life/tags/%E7%B3%8A%E5%BC%84%E9%94%AE%E7%9B%98/</loc>
-    <lastmod>2023-06-11</lastmod>
+    <lastmod>2023-08-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

@@ -6,7 +6,7 @@
   <link href="http://tqtifnypmb.bluepill.life/atom.xml" rel="self"/>
   
   <link href="http://tqtifnypmb.bluepill.life/"/>
-  <updated>2023-09-12T16:10:08.425Z</updated>
+  <updated>2023-09-15T03:18:17.757Z</updated>
   <id>http://tqtifnypmb.bluepill.life/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>产品是...</title>
+    <link href="http://tqtifnypmb.bluepill.life/2023/09/15/22-product-transform/"/>
+    <id>http://tqtifnypmb.bluepill.life/2023/09/15/22-product-transform/</id>
+    <published>2023-09-15T03:16:01.000Z</published>
+    <updated>2023-09-15T03:18:17.757Z</updated>
+    
+    <content type="html"><![CDATA[<p>产品是一种「转变」：在使用产品前，你过的生活是 X，使用之后你的生活变成了 Y。有一些产品提供的转变是非常具体的，比如汽车、电话，它们扩大了人的生活半径，改变人与人之间的关系。有一些产品提供心理层面的转变，比如短视频，它消灭了空闲、无聊时间。在过去，人在一天中，总有一些空闲、安静的时间留给自己，把注意力收回自己身上；现在的人已经完全没有这样的机会了，每一刻都被填满，注意力长期在身外。这是有害的，人的「心」不能长期飘在身外。</p><p>产品是创作者对现实世界的观点的表达。在现实生活层面，因为有人觉得不应该浪费时间排队，所以他们发明了预约机制。「预约机制」表达的就是一种不排队的观点。在心理层面，作为浸泡在同样文化下的人，我感受到现在的人跟「人」本应有的样子的差距，所以做一些产品去缩小二者的差距。这些产品表达的就是，我对「人应该如何生活」的观点。</p><p>AI 的出现赋予了程序一些接近人类的能力：文字理解、编写……。现在 AI 产品应该捕捉人类活动中重复的模式，并取代它们。这种转变是全方位的。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;产品是一种「转变」：在使用产品前，你过的生活是 X，使用之后你的生活变成了 Y。有一些产品提供的转变是非常具体的，比如汽车、电话，它们扩大了人的生活半径，改变人与人之间的关系。有一些产品提供心理层面的转变，比如短视频，它消灭了空闲、无聊时间。在过去，人在一天中，总有一些空闲</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>AI Transcribe</title>
     <link href="http://tqtifnypmb.bluepill.life/2023/09/13/21-ai-transcribe/"/>
     <id>http://tqtifnypmb.bluepill.life/2023/09/13/21-ai-transcribe/</id>
     <published>2023-09-12T16:07:38.000Z</published>
-    <updated>2023-09-12T16:10:08.425Z</updated>
+    <updated>2023-09-15T03:16:45.270Z</updated>
     
     <content type="html"><![CDATA[<p>您正在寻找一种快速、准确、隐私安全的方式来转录音频、视频、播客文件吗？</p><p>AI Transcribe 提供了 AI 动力的转录服务，可以完全脱机运行，不需要连网。</p><p>不上传任何数据，确保您的数据安全和隐私。</p><p>◼ 音频转录文字</p><p>快速把会议记录转录成生成会议纪要，把课堂录音转录成课堂记录。</p><p>消除了手动记笔记的需要，可以节省时间，提高生产力。</p><p>◼ 视频字幕制作</p><p>支持多种常见的视频格式，可以快速地把视频转录成字幕，提高制作字幕的效率。</p><p>无需互联网连接，不需要上传视频，不需要担心视频泄露。</p><p>◼ 播客转文字</p><p>把播客转写成文字，打破播客 “线性”时间的限制，加速从播客中获取信息，</p><p>使播客变成得可以搜索，成为重要的信息来源</p><p>◼ 了解更多</p><p>支持的语言：<a href="https://ai.bluepill.life/langs.html">https://ai.bluepill.life/langs.html</a><br>订阅协议和使用条款：<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a><br>隐私通知：<a href="https://ai.bluepill.life/privacy.html">https://ai.bluepill.life/privacy.html</a></p>]]></content>
     
@@ -38,9 +58,9 @@
     
     
     
-    <category term="产品" scheme="http://tqtifnypmb.bluepill.life/tags/%E4%BA%A7%E5%93%81/"/>
-    
     <category term="AI" scheme="http://tqtifnypmb.bluepill.life/tags/AI/"/>
+    
+    <category term="产品发布" scheme="http://tqtifnypmb.bluepill.life/tags/%E4%BA%A7%E5%93%81%E5%8F%91%E5%B8%83/"/>
     
   </entry>
   
@@ -229,7 +249,7 @@
     <link href="http://tqtifnypmb.bluepill.life/2022/09/20/12-ouroboros/"/>
     <id>http://tqtifnypmb.bluepill.life/2022/09/20/12-ouroboros/</id>
     <published>2022-09-20T07:23:26.000Z</published>
-    <updated>2022-09-20T07:24:30.000Z</updated>
+    <updated>2023-09-15T03:17:01.575Z</updated>
     
     <content type="html"><![CDATA[<p>As an all-in-one toolbox for developers. Ouroboros is dev pal to developers, like, Alfred to batman, Jarvis to Ironman, or Friday to Robinson.</p><h3 id="Message-Channel"><a href="#Message-Channel" class="headerlink" title="Message Channel"></a>Message Channel</h3><p>Ouroboros has a builtin Message Channel for every user. You can use your personal message channel to track event within your application, service, or system.</p><h3 id="Dotfile-Manager"><a href="#Dotfile-Manager" class="headerlink" title="Dotfile Manager"></a>Dotfile Manager</h3><p>Ouroboros helps you manage your dotfiles in one place. Keep your dotfiles sync and accessible across devices.</p><h3 id="Dev-tools"><a href="#Dev-tools" class="headerlink" title="Dev tools"></a>Dev tools</h3><p>Ouroboros contains a set of tools developer need everyday, those tools are well-designed and offline accessible. It helps to boost developers’ productivity</p>]]></content>
     
@@ -242,9 +262,9 @@
     
     
     
-    <category term="产品" scheme="http://tqtifnypmb.bluepill.life/tags/%E4%BA%A7%E5%93%81/"/>
-    
     <category term="Ouroboros" scheme="http://tqtifnypmb.bluepill.life/tags/Ouroboros/"/>
+    
+    <category term="产品发布" scheme="http://tqtifnypmb.bluepill.life/tags/%E4%BA%A7%E5%93%81%E5%8F%91%E5%B8%83/"/>
     
   </entry>
   
@@ -294,7 +314,7 @@
     <link href="http://tqtifnypmb.bluepill.life/2022/08/16/9-keyboard/"/>
     <id>http://tqtifnypmb.bluepill.life/2022/08/16/9-keyboard/</id>
     <published>2022-08-16T07:36:35.000Z</published>
-    <updated>2022-08-16T07:40:55.000Z</updated>
+    <updated>2023-09-15T03:17:06.398Z</updated>
     
     <content type="html"><![CDATA[<p>人的成熟的其中一个特征可能就是，他学会对自己的言行负起 100% 的责任。但无可否认的是，成熟并不是一条人人都必须要走的路，选择走成熟之路需要契机。就算一个人已经在变得成熟了，也没有人是一夜长大的，他需要时间（如果他身边有人在意的话）。</p><p>要求一个人为他所讲的每一句负责，有时候是很严苛的。他可能还没准备好，可能还没有能力给出答复，可能需要更多的思考时间，可能还没下好决心要离开……因为各种原因，他卡在了说与不说之间、需要表态但又没有答案进退维谷。如果回复了，不是自己想要的；如果不回复，「不回复」本身又是一种回复；不管怎么样都伤人伤己。</p><p>于是有了糊弄，一种在进退维谷余下有限空间中的生存策略。糊弄就是说了话但又没有表态，即完成了对话（没有人受到忽略）又安全地滑过了眼前的抉择时刻，既不伤人又不伤己。</p><p>但心理学告诉我们，人需要内心跟行为一致才能感到轻松自在，长期身心不一致是很难受的。所以长期的「糊弄」肯定不是一个让人愉悦活动。因此我们开发了<a href="https://apps.apple.com/app/id1556784935">「糊弄键盘」</a>尝试去解决这种不一致的状态。我们认为糊弄过程中的这种「难受」来源于，我们讲的糊弄的话跟自身的心理距离太近了，所以我们的解决方法就是：拉开糊弄的话跟自身的心理距离。在「糊弄键盘」里，所有输出的糊弄话语都是随机抽取的，就像抽盲盒一样，随机抽一句糊弄的话发出去。以达到拉开心理距离的效果，因为你可以跟自己说「这都是天意」、「我是随机的」。从而让糊弄过程变得没那么难受。</p>]]></content>
     
@@ -308,9 +328,9 @@
     
     
     
-    <category term="产品" scheme="http://tqtifnypmb.bluepill.life/tags/%E4%BA%A7%E5%93%81/"/>
-    
     <category term="糊弄键盘" scheme="http://tqtifnypmb.bluepill.life/tags/%E7%B3%8A%E5%BC%84%E9%94%AE%E7%9B%98/"/>
+    
+    <category term="产品发布" scheme="http://tqtifnypmb.bluepill.life/tags/%E4%BA%A7%E5%93%81%E5%8F%91%E5%B8%83/"/>
     
   </entry>
   
@@ -432,28 +452,6 @@
       
     <summary type="html">&lt;p&gt;如果语言是一种环境。程序员的一个优势是，可以在相对短的时间内学习一门语言。而且在工作上，他们就是用这些语言去思考的，所以在不同的语言切换间，他们可以直接、具体地体会到语言是怎么限制人的思考的。对治的方法是，多学几门语言，尤其是不同思考范式的语言。&lt;/p&gt;
 &lt;p&gt;另一个例子，</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>每日挥刀五百下</title>
-    <link href="http://tqtifnypmb.bluepill.life/2022/07/30/2-knife/"/>
-    <id>http://tqtifnypmb.bluepill.life/2022/07/30/2-knife/</id>
-    <published>2022-07-30T04:22:13.000Z</published>
-    <updated>2022-07-31T15:13:36.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>「从十五岁起，每日挥刀五百下，这个数管住了我，让不要胡思乱想」</p><p>语出电影「师父」，讲这句话的人在十五岁经历重大变故，被逼在外漂泊。几十年所做的一切事情，仿佛都只是在寻求内心的安稳。</p><p>正常人生活在现代社会没有发疯，可能都有一两样东西管住了他，让他不胡思乱想。要找到这几样东西是什么，只需看他执着于什么东西，而且说不出为什么要有这些执着便知道。</p><p>区别人的只是，这些执着是你主动选择的，还是被动接收的。</p><p>长期处于被动接收状态，一旦放开，就会完全不知道怎么构建自己的生活节律。一切需要重新学习，所有东西要重新选择一遍，用全新的眼睛重新看一遍世界。这就是一个人真正开始过自己的生活。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;「从十五岁起，每日挥刀五百下，这个数管住了我，让不要胡思乱想」&lt;/p&gt;
-&lt;p&gt;语出电影「师父」，讲这句话的人在十五岁经历重大变故，被逼在外漂泊。几十年所做的一切事情，仿佛都只是在寻求内心的安稳。&lt;/p&gt;
-&lt;p&gt;正常人生活在现代社会没有发疯，可能都有一两样东西管住了他，让他不</summary>
       
     
     

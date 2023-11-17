@@ -6,7 +6,7 @@
   <link href="http://tqtifnypmb.bluepill.life/atom.xml" rel="self"/>
   
   <link href="http://tqtifnypmb.bluepill.life/"/>
-  <updated>2023-11-09T12:21:48.334Z</updated>
+  <updated>2023-11-17T08:30:26.514Z</updated>
   <id>http://tqtifnypmb.bluepill.life/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>帮人节省时间</title>
+    <link href="http://tqtifnypmb.bluepill.life/2023/11/17/29-projectionlab/"/>
+    <id>http://tqtifnypmb.bluepill.life/2023/11/17/29-projectionlab/</id>
+    <published>2023-11-17T08:30:01.000Z</published>
+    <updated>2023-11-17T08:30:26.514Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://projectionlab.com/">ProjectionLab</a> 这种产品可以成立，是因为美国税法、401K 这些项目的计算方式都是透明且公开的吧。而且个人缴税都非常繁琐。</p><p>就跟有些国家可以做公交线路实时查看一样，因为他们的信息是对所有人公开的。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://projectionlab.com/&quot;&gt;ProjectionLab&lt;/a&gt; 这种产品可以成立，是因为美国税法、401K 这些项目的计算方式都是透明且公开的吧。而且个人缴税都非常繁琐。&lt;/p&gt;
+&lt;p&gt;就跟有些国家可以做公交线路实时查看一样，因</summary>
+      
+    
+    
+    
+    
+    <category term="案例" scheme="http://tqtifnypmb.bluepill.life/tags/%E6%A1%88%E4%BE%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>一叶障目的偏见</title>
@@ -451,26 +474,6 @@
     <category term="Ouroboros" scheme="http://tqtifnypmb.bluepill.life/tags/Ouroboros/"/>
     
     <category term="产品发布" scheme="http://tqtifnypmb.bluepill.life/tags/%E4%BA%A7%E5%93%81%E5%8F%91%E5%B8%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>项目的意义</title>
-    <link href="http://tqtifnypmb.bluepill.life/2022/08/21/11-meaning/"/>
-    <id>http://tqtifnypmb.bluepill.life/2022/08/21/11-meaning/</id>
-    <published>2022-08-21T15:08:24.000Z</published>
-    <updated>2022-08-21T15:11:32.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>有的产品 idea ，你可能用了一两个月去纠结要不要开发出来：担心开发出来之后有没有人用、担心需求是不是真的存在……但其实如果可以专心去动手开发，可能只需要一两个星期就可以实现出来了。当然，我们不能把所有想到的产品都实现出来，因为我们的时间是有限的，每一次选择都有机会成本。</p><p>如果从一个项目一个项目这种切割的视角来看，一个项目的意义单纯是要「成功」，项目创造者能否获得满足感是很被动的，因为在这个维度上「成功」似乎总是与他人的喜好有关。创造者只能处在一个等待被赋予意义的地位。</p><p>但如果从我们生活的整体来看的话，事情就不一样了。一个项目除了社会意义的「成功」以外，它还可以服务于创造者的个人需要。比如，在你创造性思维枯竭，再也想不到有创意的东西的时候，可以做一些「无脑」的写代码工作；或者在生活遭遇一些想要暂时逃避的事情的时候，如果你有一些待实现的项目或者功能，这时候你可以躲到写代码里面，总比躲起来玩游戏好一点。</p><p>从这个角度，无论项目成功与否，创造者都已经从中满足了自己的需要，项目自身就有了意义，再也不需要依赖他人的审判。双赢。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;有的产品 idea ，你可能用了一两个月去纠结要不要开发出来：担心开发出来之后有没有人用、担心需求是不是真的存在……但其实如果可以专心去动手开发，可能只需要一两个星期就可以实现出来了。当然，我们不能把所有想到的产品都实现出来，因为我们的时间是有限的，每一次选择都有机会成本。</summary>
-      
-    
-    
-    
     
   </entry>
   

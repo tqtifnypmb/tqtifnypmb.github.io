@@ -6,7 +6,7 @@
   <link href="http://tqtifnypmb.bluepill.life/atom.xml" rel="self"/>
   
   <link href="http://tqtifnypmb.bluepill.life/"/>
-  <updated>2023-11-28T09:10:53.660Z</updated>
+  <updated>2023-11-28T09:26:00.931Z</updated>
   <id>http://tqtifnypmb.bluepill.life/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://tqtifnypmb.bluepill.life/2023/11/28/30-on-device-llm-limitation/"/>
     <id>http://tqtifnypmb.bluepill.life/2023/11/28/30-on-device-llm-limitation/</id>
     <published>2023-11-28T09:10:35.000Z</published>
-    <updated>2023-11-28T09:10:53.660Z</updated>
+    <updated>2023-11-28T09:26:00.931Z</updated>
     
     <content type="html"><![CDATA[<p>苹果自研的 M 系列芯片，自带 <a href="https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/">Apple Neural Engine</a>，对 CPU 跟 GPU 性能都有相当显著的提升。让机器学习模型有可能直接运行在个人设备上，避免把数据上传到云端。</p><p>但在仅仅是算力提升，并不代表可以轻松在苹果设备上运行 Transformer 模型。</p><h3 id="1-macOS-iOS-操作系统的限制"><a href="#1-macOS-iOS-操作系统的限制" class="headerlink" title="1. macOS/iOS 操作系统的限制"></a>1. macOS/iOS 操作系统的限制</h3><p>macOS/iOS 系统对 APP 的内存占用都有一定限制，如果 APP 长时间占用大量内存会被系统直接结束进程。尤其是 iOS 系统，它要求高内存占用的 APP 主动尽快释放内存，否则也会被结束进程。</p><p>而目前的 Transformer 模型需要大量的内存去进行运算，很轻易就会超出系统的限制。虽然 Decoder 可以在中途暂停配合系统进行内存管理，但如果一次 Decode 运算时间太长，无法及时释放内存，APP 进程还是会被结束。</p><h3 id="2-模型结构跟芯片不匹配"><a href="#2-模型结构跟芯片不匹配" class="headerlink" title="2. 模型结构跟芯片不匹配"></a>2. 模型结构跟芯片不匹配</h3><p>PyTorch 训练并导出的模型结构跟 M 系列芯片的结构不匹配，需要做<a href="https://machinelearning.apple.com/research/neural-engine-transformers">一些调整</a>才能将芯片的性能最大化。</p><p>但苹果提供的方式，仅适用于某些模型。但 Attention Blocks 的 Layer 较多，较复杂时，调整后的模型往往需要很长的加载时间，甚至无法加载。</p><h3 id="3-iOS-系统没有支持长时间运行-AI-模型的机制"><a href="#3-iOS-系统没有支持长时间运行-AI-模型的机制" class="headerlink" title="3. iOS 系统没有支持长时间运行 AI 模型的机制"></a>3. iOS 系统没有支持长时间运行 AI 模型的机制</h3><p>在 iOS 系统上，目前还没有长时间运行 AI 模型的机制。<code>Background Processing</code> 并不适用于运行 AI 模型。</p>]]></content>
     

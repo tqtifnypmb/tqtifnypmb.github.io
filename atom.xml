@@ -6,7 +6,7 @@
   <link href="http://tqtifnypmb.bluepill.life/atom.xml" rel="self"/>
   
   <link href="http://tqtifnypmb.bluepill.life/"/>
-  <updated>2023-11-17T08:30:26.514Z</updated>
+  <updated>2023-11-28T09:10:53.660Z</updated>
   <id>http://tqtifnypmb.bluepill.life/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在苹果 M 系列芯片上运行 LLM 的问题</title>
+    <link href="http://tqtifnypmb.bluepill.life/2023/11/28/30-on-device-llm-limitation/"/>
+    <id>http://tqtifnypmb.bluepill.life/2023/11/28/30-on-device-llm-limitation/</id>
+    <published>2023-11-28T09:10:35.000Z</published>
+    <updated>2023-11-28T09:10:53.660Z</updated>
+    
+    <content type="html"><![CDATA[<p>苹果自研的 M 系列芯片，自带 <a href="https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/">Apple Neural Engine</a>，对 CPU 跟 GPU 性能都有相当显著的提升。让机器学习模型有可能直接运行在个人设备上，避免把数据上传到云端。</p><p>但在仅仅是算力提升，并不代表可以轻松在苹果设备上运行 Transformer 模型。</p><h3 id="1-macOS-iOS-操作系统的限制"><a href="#1-macOS-iOS-操作系统的限制" class="headerlink" title="1. macOS/iOS 操作系统的限制"></a>1. macOS/iOS 操作系统的限制</h3><p>macOS/iOS 系统对 APP 的内存占用都有一定限制，如果 APP 长时间占用大量内存会被系统直接结束进程。尤其是 iOS 系统，它要求高内存占用的 APP 主动尽快释放内存，否则也会被结束进程。</p><p>而目前的 Transformer 模型需要大量的内存去进行运算，很轻易就会超出系统的限制。虽然 Decoder 可以在中途暂停配合系统进行内存管理，但如果一次 Decode 运算时间太长，无法及时释放内存，APP 进程还是会被结束。</p><h3 id="2-模型结构跟芯片不匹配"><a href="#2-模型结构跟芯片不匹配" class="headerlink" title="2. 模型结构跟芯片不匹配"></a>2. 模型结构跟芯片不匹配</h3><p>PyTorch 训练并导出的模型结构跟 M 系列芯片的结构不匹配，需要做<a href="https://machinelearning.apple.com/research/neural-engine-transformers">一些调整</a>才能将芯片的性能最大化。</p><p>但苹果提供的方式，仅适用于某些模型。但 Attention Blocks 的 Layer 较多，较复杂时，调整后的模型往往需要很长的加载时间，甚至无法加载。</p><h3 id="3-iOS-系统没有支持长时间运行-AI-模型的机制"><a href="#3-iOS-系统没有支持长时间运行-AI-模型的机制" class="headerlink" title="3. iOS 系统没有支持长时间运行 AI 模型的机制"></a>3. iOS 系统没有支持长时间运行 AI 模型的机制</h3><p>在 iOS 系统上，目前还没有长时间运行 AI 模型的机制。<code>Background Processing</code> 并不适用于运行 AI 模型。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;苹果自研的 M 系列芯片，自带 &lt;a href=&quot;https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/&quot;&gt;Apple Neural Engine&lt;/a&gt;，对 CPU 跟 GPU 性能都有相当显著的提升。让机器学</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>帮人节省时间</title>
@@ -450,30 +470,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>Ouroboros</title>
-    <link href="http://tqtifnypmb.bluepill.life/2022/09/20/12-ouroboros/"/>
-    <id>http://tqtifnypmb.bluepill.life/2022/09/20/12-ouroboros/</id>
-    <published>2022-09-20T07:23:26.000Z</published>
-    <updated>2023-09-15T03:17:01.575Z</updated>
-    
-    <content type="html"><![CDATA[<p>As an all-in-one toolbox for developers. Ouroboros is dev pal to developers, like, Alfred to batman, Jarvis to Ironman, or Friday to Robinson.</p><h3 id="Message-Channel"><a href="#Message-Channel" class="headerlink" title="Message Channel"></a>Message Channel</h3><p>Ouroboros has a builtin Message Channel for every user. You can use your personal message channel to track event within your application, service, or system.</p><h3 id="Dotfile-Manager"><a href="#Dotfile-Manager" class="headerlink" title="Dotfile Manager"></a>Dotfile Manager</h3><p>Ouroboros helps you manage your dotfiles in one place. Keep your dotfiles sync and accessible across devices.</p><h3 id="Dev-tools"><a href="#Dev-tools" class="headerlink" title="Dev tools"></a>Dev tools</h3><p>Ouroboros contains a set of tools developer need everyday, those tools are well-designed and offline accessible. It helps to boost developers’ productivity</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;As an all-in-one toolbox for developers. Ouroboros is dev pal to developers, like, Alfred to batman, Jarvis to Ironman, or Friday to Robi</summary>
-      
-    
-    
-    
-    
-    <category term="Ouroboros" scheme="http://tqtifnypmb.bluepill.life/tags/Ouroboros/"/>
-    
-    <category term="产品发布" scheme="http://tqtifnypmb.bluepill.life/tags/%E4%BA%A7%E5%93%81%E5%8F%91%E5%B8%83/"/>
     
   </entry>
   

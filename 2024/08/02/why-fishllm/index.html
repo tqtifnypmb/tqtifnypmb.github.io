@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>你不需要是技术人员，也可以在你的设备上使用开源 LLM 模型 | Tqtifnypmb</title>
+  <meta name="description" content="" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <meta name="keywords" content="Tqtifnypmb,FishLLM,On Device AI,Local LLM,Tqtifypmb">
+  
+
+  
+    <meta name="twitter:url" content="http://tqtifnypmb.bluepill.life/2024/08/02/why-fishllm/" />
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@http://tqtifnypmb.bluepill.life" />
+  <meta name="twitter:creator" content="Tqtifnypmb">
+  <meta name="twitter:title" content="你不需要是技术人员，也可以在你的设备上使用开源 LLM 模型 | Tqtifnypmb" />
+  
+    <meta property="twitter:description" content="FishLLM 的使命就是：让尽可能多的人可以在自己的设备上使用 LLM 模型。" />
+  
+
+  
+    <meta name="og:url" content="http://tqtifnypmb.bluepill.life/2024/08/02/why-fishllm/" />
+  
+  <meta property="og:site_name" content="Tqtifnypmb">
+  <meta property="og:title" content="你不需要是技术人员，也可以在你的设备上使用开源 LLM 模型 | Tqtifnypmb" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="zh-CN" />
+
+  
+    <meta property="og:description" content="FishLLM 的使命就是：让尽可能多的人可以在自己的设备上使用 LLM 模型。" />
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+
+  <meta name="generator" content="Tqtifnypmb">
+
+  
+  
+  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="atom.xml">
+  
+  
+
+  
+</head>
+
+
+<body class="post-template">
+
+  <header class="site-head"  style="background-image: url(/images/cover.jpg)" >
+    <div class="vertical">
+        <div class="site-head-content inner">
+            
+            <a class="blog-title-link" href="/"><h1 class="blog-title">Tqtifnypmb</h1></a>
+            <h2 class="blog-description"></h2>
+            
+        </div>
+    </div>
+</header>
+  
+
+<main class="content" role="main">
+  <article class="post">
+    <span class="post-meta">
+      <time datetime="2024-08-02T03:35:49.000Z" itemprop="datePublished">
+          2024-08-02
+      </time>
+    
+    
+    | 
+    <a href='/tags/AI/'>AI</a>,
+    
+    <a href='/tags/产品发布/'>产品发布</a>
+    
+    
+</span>
+    <h1 class="post-title">你不需要是技术人员，也可以在你的设备上使用开源 LLM 模型</h1>
+    <section class="post-content">
+      <h3 id="LLM-的数据隐私问题"><a href="#LLM-的数据隐私问题" class="headerlink" title="LLM 的数据隐私问题"></a>LLM 的数据隐私问题</h3><p>使用像 OpenAI 的 ChatGPT 这一类闭源大模型的问题是，你的数据随时有可能成为模型训练的素材。</p>
+<p>虽然现在开源大模型的表现已经可以匹敌闭源大模型，有很大平台也基于这些开源模型提供 LLM 推理服务。但对于使用这些服务的用户而言，他们仍然要承受相同的数据隐私风险，因为这些平台同样有可能会收集用户的信息，用于训练大模型。</p>
+<p>目前最好的保护数据隐私安全的方案是，在用户个人的设备上运行 LLM。所有的计算都运行在用户个人的设备上，用户的数据也不会离开他自己的设备，这样就不会出现数据泄露的问题了。</p>
+<h3 id="运行-LLM-模型有很多复杂的设置"><a href="#运行-LLM-模型有很多复杂的设置" class="headerlink" title="运行 LLM 模型有很多复杂的设置"></a>运行 LLM 模型有很多复杂的设置</h3><p>但要在自己的设备上运行 LLM 模型，用户需要做一系列复杂的设置，并且需要对 LLM 模型的原理有一些了解。比如：</p>
+<p>1）寻找并安装能够运行 LLM 模型的软件。目前这一类型的软件都有比较多相对专业设置，用户需要先学习一些关于 LLM 模型的基本概念。</p>
+<p>2）寻找适合自己设备的 LLM 模型。简单而言，参数量越大的模型表现会越好，但同时对设备的硬件要求也越高。用户需要付出一定的时间去尝试才能找到适合自己设备的模型。</p>
+<p>简单而言，你需要是一个对技术有兴趣的人，才能设置好本地运行的 LLM。</p>
+<h3 id="FishLLM-帮助您跳过所有复杂的设置"><a href="#FishLLM-帮助您跳过所有复杂的设置" class="headerlink" title="FishLLM 帮助您跳过所有复杂的设置"></a>FishLLM 帮助您跳过所有复杂的设置</h3><p>FishLLM 的使命就是：让尽可能多的人可以在自己的设备上使用 LLM 模型。</p>
+<p>FishLLM 帮助你处理所有复杂的设置，你不需要了解 LLM 的原理，也不需要懂技术，只需要点击安装，FishLLM 就会完成所有设置。</p>
+<p>FishLLM 会追踪最新的开源 LLM 模型，并根据你的设备硬件配置，寻找最适合你的设备的模型。你只需要定期点击更新，即可使用最新的开源模型，不需要浪费时间去浏览技术圈的消息。</p>
+
+    </section>
+    <footer class="post-footer">
+      <section class="author">
+    <h4>Tqtifnypmb</h4>
+    <p>Make things or make things happend</p>
+</section>
+      <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-weibo" target="_blank" rel="noopener" href="http://service.weibo.com/share/share.php?title=你不需要是技术人员，也可以在你的设备上使用开源 LLM 模型&url=http://tqtifnypmb.bluepill.life/2024/08/02/why-fishllm/"
+        onclick="window.open(this.href, 'weibo-share', 'width=550,height=235');return false;">
+        <span class="hidden">Weibo</span>
+    </a>
+    <a class="icon-twitter" target="_blank" rel="noopener" href="http://twitter.com/share?url=http://tqtifnypmb.bluepill.life/2024/08/02/why-fishllm/"
+       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=http://tqtifnypmb.bluepill.life/2024/08/02/why-fishllm/"
+       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+</section>
+    </footer>
+  </article>
+  <nav class="pagination" role="pagination">
+    
+    <span class="page-number">•</span>
+    
+    <a class="older-posts" href="/2023/11/28/30-on-device-llm-limitation/">
+        在苹果 M 系列芯片上运行 LLM 的问题 →
+    </a>
+    
+</nav>
+  <div id="comment" class="comments-area">
+    <h1 class="title"><a href="#disqus_comments" name="disqus_comments">Comments</a></h1>
+
+    
+</div>
+</main>
+
+
+  <footer class="site-footer">
+  
+  <a class="subscribe icon-feed" href="/atom.xml"><span class="tooltip">Subscribe!</span></a>
+  
+  <div class="inner">
+     <section class="copyright">All content copyright <a href="/">Tqtifnypmb</a> &copy; 2016-2021 &bull; All rights reserved.</section>
+     <section class="poweredby">Proudly published with <a class="icon-ghost" target="_blank" rel="noopener" href="http://zespia.tw/hexo/">Hexo</a></section>
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+
+
+<script type="text/javascript">
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = "https://www.googletagmanager.com/gtag/js?id=" + "G-V43KVVBFF2";
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-V43KVVBFF2');
+</script>
+
+
+
+
+
+</body>
+</html>
